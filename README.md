@@ -8,7 +8,7 @@ This is an SDL file that will deploy a full listening handshake node onto akash.
 
 Deploy using CloudMOS: https://cloudmos.io/cloud-deploy
 
-Open Cloudmos and click "Deploy" 
+Open Cloudmos and click "Deploy" (after loading your wallet with AKT)
 <br>
 
 Step 0: Choose the "Empty" option and paste the [SDL](https://github.com/FliKites/handshake-node-akash/blob/main/deploy.yaml) file.
