@@ -7,15 +7,20 @@ This is an SDL file that will deploy a full listening handshake node onto akash.
 Deploy using CloudMOS: https://cloudmos.io/cloud-deploy
 
 Open Cloudmos and click "Deploy" 
+<br>
 
 Step 0: Choose the "Empty" option and paste the [SDL](https://github.com/WireWrex/handshake-node-akash/blob/main/handshake-node-fl.sdl) file.
+<br>
 
 Step 1: Create a unique name under```endpoints:``` . You will be changing line 4. Leave the colon.
+<br>
 
 Step 2: Use the same name to replace line 14. Leave ip: only change the name.
+<br>
 
 Step 3: Wait until the blockchain has synced (check the "logs" tab to see chain height) then edit the --public-host environment variable to reflect the instances public/static IP address. (Check the "Leases" tab for the IP) Once changed, click "Update Deployment"
 
+<br>
 
 More information related to handshake node configuration types: https://hsd-dev.org/guides/config.html
 
