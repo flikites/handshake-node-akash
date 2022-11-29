@@ -4,14 +4,16 @@
 
 This is an SDL file that will deploy a full listening handshake node onto akash. 
 
-[Link to Akash SDL File](https://github.com/FliKites/handshake-node-akash/blob/main/deploy.yaml)
+[Link to Akash SDL File for "Listening Node"](https://github.com/FliKites/handshake-node-akash/blob/main/full-listening.yaml)
+
+[Link to Akash SDL File for "Nerd Node"](https://github.com/FliKites/handshake-node-akash/blob/main/nerd-mode.yaml)
 
 Deploy using CloudMOS: https://cloudmos.io/cloud-deploy
 
 Open Cloudmos and click "Deploy" (after loading your wallet inside cloudmos with AKT)
 <br>
 
-Step 0: Choose the "Empty" option and paste the [SDL](https://github.com/FliKites/handshake-node-akash/blob/main/deploy.yaml) file.
+Step 0: Choose the "Empty" option and paste the [SDL](https://github.com/FliKites/handshake-node-akash/blob/main/full-listening.yaml) file.
 <br>
 
 Step 1: Create a unique name under```endpoints:``` You will be changing line 4. Leave the colon.
@@ -28,11 +30,19 @@ More information related to handshake node configuration types: https://hsd-dev.
 
 `IP address` MUST be your external IP address, publicly accessible by the internet.
 
-hsd \
---bip37=true   \
---listen=true   \
+Full Listening Node: 
+
+hsd 
+--bip37=true   
+--listen=true   
 --public-host=`IP address`
---public-port=12038  \
+--public-port=12038  
 --max-inbound=100	
 
 
+Nerd Mode: 
+
+hsd 
+--index-tx=true 
+--index-address=true 
+--log-level=spam
