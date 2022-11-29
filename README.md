@@ -1,6 +1,6 @@
 # handshake-full-listening-node-akash
 
-# Full Listening Nodes allows inbound connections from other full and light clients like hnsd, and are instrumental to a decentralized network.
+# Full Listening Nodes allow inbound connections from other full and light clients like hnsd, and are instrumental to a decentralized network.
 
 This is an SDL file that will deploy a full listening handshake node onto akash. 
 
