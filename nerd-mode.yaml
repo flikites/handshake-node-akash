@@ -1,1 +1,4 @@
 
+--index-tx=true 
+--index-address=true 
+--log-level=spam
