@@ -1,6 +1,8 @@
 # handshake-full-listening-node-akash
 
-This is an SDL file that will deploy a full listening handshake node onto akash.
+# Full Listening Nodes allows inbound connections from other full and light clients like hnsd, and are instrumental to a decentralized network.
+
+This is an SDL file that will deploy a full listening handshake node onto akash. 
 
 [Link to Akash SDL File](https://github.com/FliKites/handshake-node-akash/blob/main/deploy.yaml)
 
@@ -24,7 +26,6 @@ Step 3: Wait until the blockchain has synced (check the "logs" tab to see chain 
 
 More information related to handshake node configuration types: https://hsd-dev.org/guides/config.html
 
-# Full Node that allows inbound connections from other full and light clients like hnsd
 <IP address> MUST be your external IP address, publicly accessible by the internet.
 
 hsd \
