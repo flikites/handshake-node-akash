@@ -22,7 +22,7 @@ Step 1: Create a unique name under```endpoints:``` You will be changing line 4. 
 Step 2: Use the same name to replace line 14. Leave ip: only change the name.
 <br>
 
-Step 3: Wait until the blockchain has synced (check the "logs" tab to see chain height) then edit the --public-host environment variable to reflect the instances public/static IP address. (Check the "Leases" tab for the IP) Once changed, click "Update Deployment"
+Step 3: Wait until the blockchain has synced (check the "logs" tab to see chain height) then edit the --public-host command to reflect the instances public/static IP address. (Check the "Leases" tab for the IP) Once changed, click "Update Deployment"
 
 <br>
 
