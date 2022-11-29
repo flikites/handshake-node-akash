@@ -12,7 +12,7 @@ Open Cloudmos and click "Deploy"
 Step 0: Choose the "Empty" option and paste the [SDL](https://github.com/WireWrex/handshake-node-akash/blob/main/handshake-node-fl.sdl) file.
 <br>
 
-Step 1: Create a unique name under```endpoints:``` . You will be changing line 4. Leave the colon.
+Step 1: Create a unique name under```endpoints:``` You will be changing line 4. Leave the colon.
 <br>
 
 Step 2: Use the same name to replace line 14. Leave ip: only change the name.
