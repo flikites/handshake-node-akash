@@ -36,6 +36,7 @@ hsd
 --bip37=true   
 --listen=true   
 --public-host=`IP address'
+
 --public-port=12038  
 --max-inbound=100	
 
